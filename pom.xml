@@ -17,6 +17,9 @@
         <module>jdmall-order</module>
         <module>jdmall-product</module>
         <module>jdmall-ware</module>
+        <module>renren-fast</module>
+        <module>renren-generator</module>
+        <module>jdmall-common</module>
     </modules>
 
 
