@@ -10,22 +10,22 @@ import org.springframework.boot.test.context.SpringBootTest;
 class JdmallProductApplicationTests {
 
 
-    @Autowired
-    BrandService brandService;
+//    @Autowired
+//    BrandService brandService;
 
     @Test
     void contextLoads() {
 
 
-        BrandEntity brandEntity = new BrandEntity();
-//        brandEntity.setName("三星");
-//        brandEntity.setDescript("机皇");
-//        brandService.save(brandEntity);
-//        System.out.println("保存成功");
-        brandEntity.setBrandId(1L);
-        brandEntity.setDescript("苹果");
-        brandEntity.setName("iphone");
-        brandService.updateById(brandEntity);
+//        BrandEntity brandEntity = new BrandEntity();
+////        brandEntity.setName("三星");
+////        brandEntity.setDescript("机皇");
+////        brandService.save(brandEntity);
+////        System.out.println("保存成功");
+//        brandEntity.setBrandId(1L);
+//        brandEntity.setDescript("苹果");
+//        brandEntity.setName("iphone");
+//        brandService.updateById(brandEntity);
     }
 
 }
